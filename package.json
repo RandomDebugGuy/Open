@@ -1,0 +1,19 @@
+{
+  "name": "opensyncthing",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun start",
+    "test": "bun run test.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "pino": "^9.7.0"
+  }
+}
